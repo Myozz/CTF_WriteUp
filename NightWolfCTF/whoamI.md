@@ -1,4 +1,8 @@
-![image](https://github.com/Myozz/CTF_WriteUp/assets/94811005/8cedf0d6-73ad-4824-98a4-7c16497a9ab8)
+# About this Challenge
+- Link: [Có thể sẽ bị đóng về sau](http://caterpie_c3488068a00808d7281f030ac3433427.ctf.night-wolf.io/index)
+- Mô tả: Trong hàng nghìn người đăng ký, không ai biết ta là ai :|| thử tìm xem ta là ai nhé
+- Hint: Admin Right
+# WhoamI 
 - Vào web của đề bài ta có một login form, lúc đầu. Nhưng đương nhiên ta cần phải register cái đã. Form register khá cứng về type của từng box, có mỗi Name là khá tự do nên tôi nghĩ có thể nó sẽ tận dụng được
 - Sau khi reg xong thì tôi login vào như bình thường thôi, thứ đập thẳng vào mắt tôi là một bảng tên những người đã đăng ký (may quả mình không set thông tin thật) ![image](https://github.com/Myozz/CTF_WriteUp/assets/94811005/e4884cd9-cedb-47f0-b3b0-2c8683012a07)
 - Check source code cái nào ![image](https://github.com/Myozz/CTF_WriteUp/assets/94811005/4df111e9-6980-404a-9800-39d69b7ab639) Có một cái comment là flag ở đâu đó quanh đấy. Nếu tôi đọc đúng thì cái ```console.log(data.flag)``` sẽ được thực thi mỗi khi login vào (hiện ở console nhé :||)
